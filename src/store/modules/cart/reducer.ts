@@ -5,6 +5,7 @@ const INITIAL_STATE: ICartState = {
     items: []
 }
 
-export const cart: Reducer<ICartState> = () => {
+export const cart: Reducer<ICartState> = (state, actions) => {
+    console.log(state, actions)
     return INITIAL_STATE
 }
