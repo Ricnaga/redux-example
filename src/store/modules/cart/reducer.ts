@@ -5,12 +5,10 @@ const INITIAL_STATE: ICartState = {
     items: []
 }
 
-export const cart: Reducer<ICartState> = (state = INITIAL_STATE, actions) => {
-    switch (actions.type) {
+export const cart: Reducer<ICartState> = (state = INITIAL_STATE, action) => {
+    switch (action.type) {
         case ProductActionsType.ADD_PRODUCT_TO_CART: {
-            const { product } = actions.payload
-
-
+            const { product } = action.payload
             return {
                 ...state,
                 items: [
@@ -22,8 +20,6 @@ export const cart: Reducer<ICartState> = (state = INITIAL_STATE, actions) => {
                 ]
             }
         }
-        default: {
-            return state
-        }
+        default: return state
     }
 }
