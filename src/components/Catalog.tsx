@@ -1,8 +1,8 @@
 import React, { useCallback, useEffect, useState } from "react";
 import { useDispatch } from "react-redux";
-import { api } from "../../services/api";
-import { addProductToCart } from "../../store/modules/cart/actions";
-import { IProduct } from "../../store/modules/cart/types";
+import { api } from "../services/api";
+import { addProductToCart } from "../store/modules/cart/actions";
+import { IProduct } from "../store/modules/cart/types";
 
 export function Catalog() {
   const [catalog, setCatalog] = useState<Array<IProduct>>([]);

@@ -1,3 +1,6 @@
+export enum ProductActionsType {
+    ADD_PRODUCT_TO_CART = 'ADD_PRODUCT_TO_CART'
+}
 
 export type IProduct = {
     id: number;
