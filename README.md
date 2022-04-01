@@ -37,7 +37,7 @@ $ code .
 $ yarn server (caso não utilize o yarn: npm run server)
 
 # Seguidamente execute a aplicação do frontend.
-$ yarn frontend:start (caso não utilize o yarn: npm run frontend:start)
+$ yarn start (caso não utilize o yarn: npm run start)
 
 # A aplicação iniciará na porta 3000
 # No navegador caso não iniciar automaticamente, digite: http://localhost:3000
@@ -45,7 +45,7 @@ $ yarn frontend:start (caso não utilize o yarn: npm run frontend:start)
 
 ##  <div align="center">Tecnologias utilizadas</div>
 - [Reactjs](https://reactjs.org/)
-- [Redux](https://mui.com/)
+- [Redux](https://redux.js.org/)
 
 
 <div align="center">Desenvolvedor:
@@ -55,4 +55,4 @@ $ yarn frontend:start (caso não utilize o yarn: npm run frontend:start)
 Gostou? tem alguma sugestão de melhoria? por favor, entre em contato e ja aproveita e me adiciona.<br>
 
 #
-<div align="center"> <img src="https://img.shields.io/github/license/Ricnaga/GraphQl-Subscriptions?color=purple&style=for-the-badge"/> </div># redux-example
+<div align="center"> <img src="https://img.shields.io/github/license/Ricnaga/GraphQl-Subscriptions?color=purple&style=for-the-badge"/> </div>
