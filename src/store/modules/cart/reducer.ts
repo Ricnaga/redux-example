@@ -27,6 +27,9 @@ export const cart: Reducer<ICartState> = (state = INITIAL_STATE, action) => {
 
                 break;
             }
+            case ProductActionsType.ADD_PRODUCT_TO_CART_FAILURE:{
+                break;
+            }
             default: return draft
         }
     })
