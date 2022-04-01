@@ -1,44 +1,58 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+<div align="center">
+  <img src="./cover.jpg" />
+</div>
 
-## Available Scripts
+# <div align="center"> Redux exemplo </div>
 
-In the project directory, you can run:
+#### <div align="right">- Projeto Finalizado🟢 <div>
 
-### `npm start`
+### <div align="center"> Aplicação em Reactjs abordando conceitos sobre: </div>
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+#### - Reactjs
+#### - Typescript
+#### - Redux | Redux Saga
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## <div align="center"> Sumário </div>
+<!--ts-->
+   - [Requisitos](#<div-align="center">Requisitos</div>)
+   - [Tecnologias utilizadas](#<div-align="center">Tecnologias-utilizadas</div>)
 
-### `npm test`
+<!--te-->
+## <div align="center">Requisitos</div>
+Para executar a aplicação é necessário instalar algumas ferramentas tais como um editor de códigos para realizar compilação dos mesmos. Nesse projeto foi utilizado o [Visual Studio Code](https://code.visualstudio.com/), [NodeJS](https://nodejs.org/en/) para compilação do código, [Git Bash](https://gitforwindows.org/) para baixar o repositório e baixar todas as dependências necessárias.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+# Baixe o repositório.
+$ git clone https://github.com/Ricnaga/redux-example.git
+# Acesse a pasta do projeto.
+$ cd redux-example
 
-### `npm run build`
+# Agora que baixou e acessou o repositório, vamos começar a instalação das dependências.
+$ yarn ( caso não utilize o yarn execute apenas npm -i)
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Depois de instalado todas as dependências, abra a aplicação via vscode
+$ code .
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+# Agore execute a aplicação do backend mock.
+$ yarn server (caso não utilize o yarn: npm run server)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Seguidamente execute a aplicação do frontend.
+$ yarn frontend:start (caso não utilize o yarn: npm run frontend:start)
 
-### `npm run eject`
+# A aplicação iniciará na porta 3000
+# No navegador caso não iniciar automaticamente, digite: http://localhost:3000
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+##  <div align="center">Tecnologias utilizadas</div>
+- [Reactjs](https://reactjs.org/)
+- [Redux](https://mui.com/)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+<div align="center">Desenvolvedor:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+<a href="https://www.linkedin.com/in/ricardo-nagatomy"><img src="https://img.shields.io/badge/-Ricardo Naga-blue?style=flat-square&logo=Linkedin&logoColor=white"></a>
 
-## Learn More
+Gostou? tem alguma sugestão de melhoria? por favor, entre em contato e ja aproveita e me adiciona.<br>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+#
+<div align="center"> <img src="https://img.shields.io/github/license/Ricnaga/GraphQl-Subscriptions?color=purple&style=for-the-badge"/> </div># redux-example
