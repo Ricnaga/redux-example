@@ -16,4 +16,5 @@ export interface ICartItem {
 }
 export interface ICartState {
     items: Array<ICartItem>
+    failedStockCheck:Array<number>
 }
