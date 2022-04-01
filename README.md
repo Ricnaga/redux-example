@@ -55,4 +55,4 @@ $ yarn start (caso não utilize o yarn: npm run start)
 Gostou? tem alguma sugestão de melhoria? por favor, entre em contato e ja aproveita e me adiciona.<br>
 
 #
-<div align="center"> <img src="https://img.shields.io/github/license/Ricnaga/GraphQl-Subscriptions?color=purple&style=for-the-badge"/> </div>
+<div align="center"> <img src="https://img.shields.io/github/license/Ricnaga/redux-example?color=purple&style=for-the-badge"/> </div>
